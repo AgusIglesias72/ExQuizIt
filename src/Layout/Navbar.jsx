@@ -8,7 +8,7 @@ import { useSession } from 'next-auth/react'
 // import { getServerSession } from 'next-auth/next'
 // import { authOptions } from '../pages/api/auth/[...nextauth]'
 
-const BASE_URL = 'http://localhost:3001'
+const BASE_URL = 'http://localhost:3001/'
 
 const menuOptions = [
   {
@@ -35,8 +35,6 @@ export default function Navbar() {
   const { data: session } = useSession()
 
   const IconComponent = () => {
-    const redirectTo = !session ? '/api/auth/signin' : '/profile'
-
     const imageStyle = session
       ? { borderRadius: '50%', cursor: 'pointer' }
       : { cursor: 'pointer' }
@@ -103,7 +101,7 @@ export default function Navbar() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clipRule="evenodd"
               ></path>

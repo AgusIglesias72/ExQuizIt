@@ -16,7 +16,7 @@ export default function Newslatter() {
             <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
               <div className="relative w-full">
                 <label
-                  for="email"
+                  htmlFor="email"
                   className="hidden mb-2 text-sm font-medium text-gray-900"
                 >
                   Email address
