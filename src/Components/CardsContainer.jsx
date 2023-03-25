@@ -12,6 +12,7 @@ const CategoryFilters = ({ activeCategory, setActiveCategory }) => {
             onClick={(e) => {
               setActiveCategory(e.target.id)
             }}
+key={category}
           >
             <div
               id={category}
