@@ -5,7 +5,7 @@ export default function Card({ object, direction }) {
     object
 
   return (
-    <div class="flex flex-row max-h-44 md:max-h-80  items-between bg-white border border-gray-200 rounded-lg shadow md:flex-row max-w-md md:max-w-md lg:max-w-md  hover:bg-gray-100">
+    <div class="flex flex-row md:max-h-80  items-between bg-white border border-gray-200 rounded-lg shadow md:flex-row max-w-md md:max-w-md lg:max-w-md  hover:bg-gray-100">
       <img
         class="object-cover object-center overflow-hidden w-2/5 min-h-max h-auto md:rounded-none md:rounded-l-lg"
         src="https://flowbite.com/docs/images/blog/image-4.jpg"
@@ -28,7 +28,7 @@ export default function Card({ object, direction }) {
             href="#"
             class={`inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 ${direction} md:order-none`}
           >
-            Play Quiz
+            Play
             <svg
               aria-hidden="true"
               class="w-4 h-4 ml-2 -mr-1"

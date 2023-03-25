@@ -7,11 +7,11 @@ import PageLayout from '@/src/Layout/PageLayout'
 export default function Quizzes() {
   return (
     <PageLayout title="ExQuizIt - Quizzes" description="Quizzes page">
-      {/* <Banner
+      <Banner
         text="Create your own quiz and share it with the world!"
         button="Create Quiz"
         link="/quizzes/create"
-      /> */}
+      />
       <TitleComponent
         title="Create your own quiz"
         subtitle="Choose the category, add questions, answers and share it with the world!"

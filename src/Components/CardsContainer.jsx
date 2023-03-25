@@ -12,7 +12,7 @@ const CategoryFilters = ({ activeCategory, setActiveCategory }) => {
             onClick={(e) => {
               setActiveCategory(e.target.id)
             }}
-key={category}
+            key={category}
           >
             <div
               id={category}
@@ -75,8 +75,8 @@ const Pagination = ({ pagination, handlePageChange, page }) => {
               <div
                 className={
                   page === name
-                    ? 'px-6 cursor-pointer py-2 leading-tight text-purple-600 border border-gray-300 bg-purple-100 hover:bg-purple-100 hover:text-purple-700'
-                    : 'px-6 cursor-pointer py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700'
+                    ? 'px-3 md:px-6 cursor-pointer py-2 leading-tight text-purple-600 border border-gray-300 bg-purple-100 hover:bg-purple-100 hover:text-purple-700'
+                    : 'px-3 md:px-6 cursor-pointer py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700'
                 }
               >
                 {name}
