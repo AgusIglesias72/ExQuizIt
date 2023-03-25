@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 const CategoryFilters = ({ activeCategory, setActiveCategory }) => {
   return (
-    <ul className="flex flex-row">
+    <ul className="flex flex-row flex-wrap justify-center px-5 md:px-0">
       {mockCategory.map((category) => {
         return (
           <li
@@ -124,8 +124,8 @@ export default function CardsContainer({}) {
   }
 
   return (
-    <div className="bg-white mx-auto py-8 lg:px-10">
-      <div className="pb-5 mb-5 max-w-screen-xl  flex flex-col flex-wrap w-full lg:flex-row justify-center md:justify-between items-center gap-4 gap-x-10 lg:gap-0 mx-auto w-full text-sm font-medium text-center text-gray-500 border-b border-gray-200 ">
+    <div className="bg-white mx-auto lg:px-10 pb-6">
+      <div className="pb-5 mb-5 max-w-screen-xl  flex flex-col flex-wrap w-full lg:flex-row justify-center xl:justify-between items-center gap-4 gap-x-10 xl:gap-0 mx-auto w-full text-sm font-medium text-center text-gray-500 border-b border-gray-200 ">
         <div className="">
           <CategoryFilters
             activeCategory={activeCategory}

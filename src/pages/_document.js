@@ -6,7 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
-        <NextScript />
+        <NextScript src="../path/to/flowbite/dist/flowbite.min.js" />
       </body>
     </Html>
   )

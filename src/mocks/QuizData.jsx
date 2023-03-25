@@ -475,4 +475,7 @@ export const mockCategory = [
   'History',
   'Geography',
   'Countries',
+  'Music',
+  'Movies',
+  'Science',
 ]
