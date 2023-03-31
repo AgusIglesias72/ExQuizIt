@@ -9,10 +9,6 @@ export default function PageLayout({ children, title, description }) {
         <title>{title}</title>
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
-        <script
-          defer
-          src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"
-        ></script>
       </Head>
       <Navbar />
       <main

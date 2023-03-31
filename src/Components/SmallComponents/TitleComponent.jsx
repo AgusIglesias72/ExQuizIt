@@ -8,21 +8,21 @@ export default function TitleComponent({
   withButton,
 }) {
   return (
-    <div className="max-w-screen-xl flex flex-col justify-center items-center px-2 text-center w-full md:mx-auto md:w-2/3 pt-6 ">
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+    <div className="max-w-screen-xl flex flex-col justify-center items-center px-2 text-center w-full md:mx-auto md:w-2/3 py-6 ">
+      <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
         {title}
       </h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+      <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
         {subtitle}
       </p>
       {withButton && (
         <Link
           href={link}
-          class="inline-flex items-center justify-center px-5 py-3 w-2/3 md:w-1/3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+          className="inline-flex items-center justify-center px-5 py-3 w-2/3 md:w-1/3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
         >
           {button}
           <svg
-            class="w-5 h-5 ml-2 -mr-1"
+            className="w-5 h-5 ml-2 -mr-1"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"

@@ -479,3 +479,231 @@ export const mockCategory = [
   'Movies',
   'Science',
 ]
+
+export const quizInfo = {
+  title: 'World Cup 2022',
+  description: 'Questions about the World Cup 2022',
+  category: 'Sports',
+  questions: [
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+    {
+      question:
+        '¿Cuál es el nombre del estadio de la final de la Copa del Mundo 2022?',
+      answers: [
+        {
+          answer: 'Al Bayt Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Janoub Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Rayyan Stadium',
+          correct: false,
+        },
+        {
+          answer: 'Al Wakrah Stadium',
+          correct: true,
+        },
+      ],
+    },
+  ],
+}

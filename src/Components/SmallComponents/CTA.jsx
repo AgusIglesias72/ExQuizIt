@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function CTACard({
@@ -8,14 +9,14 @@ export default function CTACard({
   direction,
   alignDirection,
   image,
+  link,
 }) {
   return (
     <div class="bg-white py-2 lg:py-4">
       <div class="mx-auto w-full px-4 md:px-8">
         <div class="flex flex-col overflow-hidden rounded-lg bg-gray-900 sm:flex-row md:h-80">
-          {/* <!-- content - start --> */}
           <div
-            class={`flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5 ${alignDirection}`}
+            class={`flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5 ${alignDirection} `}
           >
             <h2 class="mb-4 text-xl font-bold text-white md:text-2xl lg:text-4xl">
               {title}
@@ -23,20 +24,18 @@ export default function CTACard({
               {subtitle}
             </h2>
 
-            <p class="mb-8 max-w-md text-gray-400">{description}</p>
+            <p class="mb-8 flex justify-end text-gray-400">{description}</p>
 
             <div class="mt-auto">
-              <a
-                href="#"
+              <Link
+                href={link}
                 class="inline-block rounded-lg bg-white px-8 py-3 text-center text-sm font-semibold text-gray-800 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base"
               >
                 {button}
-              </a>
+              </Link>
             </div>
           </div>
-          {/* <!-- content - end --> */}
 
-          {/* <!-- image - start --> */}
           <div
             class={`order-first h-48 w-full bg-gray-700 ${direction} sm:h-auto sm:w-1/2 lg:w-3/5`}
           >
@@ -47,7 +46,6 @@ export default function CTACard({
               class="h-full w-full object-cover object-center"
             />
           </div>
-          {/* <!-- image - end --> */}
         </div>
       </div>
     </div>
