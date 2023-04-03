@@ -27,7 +27,7 @@ function Stepper() {
 
   return (
     <div>
-      <ol className="flex items-center justify-between w-full px-2 md:w-2/3 md:px-0 mx-auto text-sm font-medium text-center text-gray-500 dark:text-gray-400 sm:text-base ">
+      <ol className="flex items-center justify-between w-full px-2 md:w-2/3 md:px-0 mx-auto text-sm font-medium text-center text-gray-500  sm:text-base ">
         {steps.map((item, index) => {
           if (item.id < quizStep) {
             return (
@@ -125,7 +125,10 @@ export const QuizInformation = () => {
       <div>
         <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900">
           {quiz.title}{' '}
-          <span className="text-gray-500 font-normal"> - {quiz.category}</span>
+          <span className="text-gray-500 font-normal">
+            {' - '}
+            {quiz.category}
+          </span>
         </h1>
         <p className="text-gray-500 font-normal">
           ({quiz.questions.length} questions)
@@ -188,7 +191,7 @@ export default function CreateQuizForm() {
                 <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900">
                   Add at least 10 questions to your quiz.
                 </h1>
-                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
                   Don't worry, you can edit them below or later.
                 </p>
               </div>
@@ -202,7 +205,7 @@ export default function CreateQuizForm() {
                 <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900">
                   Quiz Details
                 </h1>
-                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
                   Please check your quiz details and confirm.
                 </p>
               </div>
