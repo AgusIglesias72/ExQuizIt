@@ -29,4 +29,5 @@ body {
   overflow-x: hidden;
   margin: 0px;
   padding: 0px;
+  /* filter: brightness(1); */
 }

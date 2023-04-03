@@ -10,11 +10,15 @@ export const QuizProvider = ({ children }) => {
     questions: [],
   })
 
+  const [quizStep, setQuizStep] = useState(1)
+
   return (
     <QuizContext.Provider
       value={{
         quiz,
         setQuiz,
+        quizStep,
+        setQuizStep,
       }}
     >
       {children}

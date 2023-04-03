@@ -6,7 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
-        <NextScript src="../path/to/flowbite/dist/flowbite.min.js" />
+        <NextScript src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js" />
       </body>
     </Html>
   )
