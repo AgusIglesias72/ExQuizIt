@@ -191,7 +191,7 @@ export default function CreateQuizForm() {
                 <h1 className="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900">
                   Add at least 10 questions to your quiz.
                 </h1>
-                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 ">
+                <p className="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">
                   Don't worry, you can edit them below or later.
                 </p>
               </div>
