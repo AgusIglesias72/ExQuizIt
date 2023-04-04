@@ -1,4 +1,5 @@
 import { createContext, useState } from 'react'
+import { useSession } from 'next-auth/react'
 
 export const QuizContext = createContext()
 
@@ -11,6 +12,7 @@ export const QuizProvider = ({ children }) => {
   })
 
   const [quizStep, setQuizStep] = useState(1)
+  const { data: session } = useSession()
 
   return (
     <QuizContext.Provider
@@ -19,6 +21,7 @@ export const QuizProvider = ({ children }) => {
         setQuiz,
         quizStep,
         setQuizStep,
+        session,
       }}
     >
       {children}

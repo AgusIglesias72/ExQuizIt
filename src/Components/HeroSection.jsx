@@ -8,13 +8,13 @@ export default function HeroSection() {
     <section className="bg-white container mx-auto">
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="lg:col-span-7 w-full">
-          <h1 class="max-w-2xl mb-4 lg:mb-10 text-4xl text-center lg:text-left mx-auto font-extrabold text-gray-900 md:text-5xl ">
+          <h1 className="max-w-2xl mb-4 lg:mb-10 text-4xl text-center lg:text-left mx-auto font-extrabold text-gray-900 md:text-5xl ">
             Choose from our{' '}
-            <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-800 from-sky-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-800 from-sky-400">
               +1000 amazing ExQuizIts
             </span>
           </h1>
-          <p class="max-w-2xl mb-6 mx-4 lg:mx-auto font-normal text-gray-500 lg:mb-10 md:text-lg lg:text-xl text-center lg:text-left mx-auto">
+          <p className="max-w-2xl mb-6 mx-4 lg:mx-auto font-normal text-gray-500 lg:mb-10 md:text-lg lg:text-xl text-center lg:text-left mx-auto">
             Play and create quizzes. Share them with your friends and family.
             Have fun while learning new things.
           </p>

@@ -60,38 +60,10 @@ const svgIcons = {
   ),
 }
 
-const URL = process.env.NEXTAUTH_URL
-
-const probando = {
-  github: {
-    id: 'github',
-    name: 'GitHub',
-    type: 'oauth',
-    signinUrl: 'http://localhost:3001/api/auth/signin/github',
-    callbackUrl: 'http://localhost:3001/api/auth/callback/github',
-  },
-  google: {
-    id: 'google',
-    name: 'Google',
-    type: 'oauth',
-    signinUrl: 'http://localhost:3001/api/auth/signin/google',
-    callbackUrl: 'http://localhost:3001/api/auth/callback/google',
-  },
-  discord: {
-    id: 'discord',
-    name: 'Discord',
-    type: 'oauth',
-    signinUrl: 'http://localhost:3001/api/auth/signin/discord',
-    callbackUrl: 'http://localhost:3001/api/auth/callback/discord',
-  },
-}
-
 export default function SignIn({ providers }) {
   return (
     <>
       <PageLayout title="ExQuizIt - Sign In" description="Sign in page">
-        {/* {JSON.stringify(probando)} */}
-
         <div class="bg-white shadow md:my-[6rem] lg:my-28 rounded xl:w-2/5 lg:w-3/5 mx-auto md:w-2/3 w-full p-10">
           <p
             tabindex="0"
@@ -145,8 +117,6 @@ export async function getServerSideProps(context) {
   }
 
   const providers = await getProviders()
-
-  console.log(providers)
 
   return {
     props: { providers: providers ?? [] },

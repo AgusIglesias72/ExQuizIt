@@ -144,7 +144,7 @@ export default function Navbar() {
 
 //   return {
 //     props: {
-//       session,
+//       session: session,
 //     },
 //   }
 // }
