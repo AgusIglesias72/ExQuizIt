@@ -100,7 +100,7 @@ export default function InfoModal({ closeModal, show }) {
                   value={quizInfo.title}
                   onChange={handleChange}
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
-                  placeholder="Ex. Apple iMac 27&ldquo;"
+                  placeholder="Harry Potter, Lord of the Rings, etc."
                 />
               </div>
               <div>

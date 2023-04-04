@@ -32,5 +32,8 @@ export const authOptions = {
       clientSecret: DISCORD_CLIENT_SECRET,
     }),
   ],
+  pages: {
+    signIn: '/auth/signin',
+  },
 }
 export default NextAuth(authOptions)

@@ -14,7 +14,7 @@ export default function CTACard({
   return (
     <div class="bg-white py-2 lg:py-4">
       <div class="mx-auto w-full px-4 md:px-8">
-        <div class="flex flex-col overflow-hidden rounded-lg bg-gray-900 sm:flex-row md:h-80">
+        <div class="flex flex-col overflow-hidden rounded-lg bg-blue-800 sm:flex-row md:h-80">
           <div
             class={`flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5 ${alignDirection} `}
           >
@@ -24,7 +24,7 @@ export default function CTACard({
               {subtitle}
             </h2>
 
-            <p class="mb-8 flex justify-end text-gray-400">{description}</p>
+            <p class="mb-8 flex justify-end text-white">{description}</p>
 
             <div class="mt-auto">
               <Link
