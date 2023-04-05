@@ -18,6 +18,7 @@ export default async function handler(req, res) {
   }
 
   if (method === 'POST') {
+    console.log(userData)
     const quizBody = {
       title: quiz.title,
       description: quiz.description,
