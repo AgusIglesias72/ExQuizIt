@@ -58,7 +58,7 @@ export default async function handler(req, res) {
     })
 
     return res.status(200).json({
-      message: 'POST request received',
+      message: 'POST request received :)',
     })
   }
 }
