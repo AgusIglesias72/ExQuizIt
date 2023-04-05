@@ -23,7 +23,7 @@ export default async function handler(req, res) {
       description: quiz.description,
       quizLength: quiz.questions.length,
       userId: userData.id,
-      categoryId: quiz.category,
+      category: quiz.category,
     }
 
     const quizCreated = await prisma.quiz.create({

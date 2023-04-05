@@ -69,25 +69,24 @@ model Quiz {
   id       Int      @id @default(autoincrement())
   title     String
   description String?   
+  category String @default("All")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   quizLength Int
   author    User   @relation("QuizMadeByUser",fields: [userId], references: [id])
   userId   String
-  category Categories[] 
-  categoryId String
   questions Questions[] @relation("QuestionReferToQuiz")
   attemps   Attemps[] @relation("AttempsMadeInThisQuiz")
   answeredQuestions AnsweredQuestions[] @relation("AnswerQuestionFromQuiz")
+
 }
 
 model Categories {
   id       Int      @id @default(autoincrement())
-  name     String   
+  name     String   @unique
   description String?
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  quizzes   Quiz[]
 }
 
 model Questions {
