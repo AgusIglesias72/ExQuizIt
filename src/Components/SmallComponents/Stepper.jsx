@@ -21,7 +21,7 @@ export function Stepper() {
 
   return (
     <div>
-      <ol className="flex items-center justify-between w-full px-2 md:w-2/3 md:px-0 mx-auto text-sm font-medium text-center text-gray-500  sm:text-base ">
+      <ol className="flex items-center justify-between w-full px-2 pl-4 md:w-2/3 lg:w-1/2 md:px-0 mx-auto text-sm font-medium text-center text-gray-500  sm:text-base ">
         {steps.map((item, index) => {
           if (item.id < quizStep) {
             return (

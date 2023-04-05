@@ -59,7 +59,7 @@ export default function CreateQuizForm() {
     setTimeout(() => {
       setLoading(false)
       setStart(true)
-    }, 1000)
+    }, 600)
   }
 
   const submitQuiz = async () => {
@@ -78,7 +78,7 @@ export default function CreateQuizForm() {
   }
 
   return (
-    <div className="bg-white container mx-auto max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 ">
+    <div className="bg-white container mx-auto max-w-screen-xl px-4 pb-4 mx-auto lg:gap-8 xl:gap-0 ">
       {!start && (
         <CreateQuizTitle
           startQuiz={() => {

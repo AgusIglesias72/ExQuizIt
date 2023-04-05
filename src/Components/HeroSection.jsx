@@ -6,7 +6,7 @@ export default function HeroSection() {
 
   return (
     <section className="bg-white container mx-auto">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12">
         <div className="lg:col-span-7 w-full">
           <h1 className="max-w-2xl mb-4 lg:mb-10 text-4xl text-center lg:text-left mx-auto font-extrabold text-gray-900 md:text-5xl ">
             Choose from our{' '}
