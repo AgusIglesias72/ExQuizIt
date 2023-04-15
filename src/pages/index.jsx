@@ -15,11 +15,11 @@ export default function Home() {
       <SocialProof />
       <TwoPicsBanner />
       <Newslatter />
-      <Banner
+      {/*       <Banner
         text={'Have fun while learning new things.'}
         link="/signup"
         button="Sign Up"
-      />
+      /> */}
     </PageLayout>
   )
 }
