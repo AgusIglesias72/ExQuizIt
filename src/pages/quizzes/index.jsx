@@ -25,18 +25,18 @@ export default function Quizzes() {
         description="Explore our quiz special selection for this week. Based on current events, trending topics and more. Spend your time wisely and have fun while doing it."
         button="Play"
         direction="sm:order-first"
-        link="/quizzes/week"
+        link="/quizzes/popular"
         image={
           'https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500'
         }
       />
       <CTACard
-        title="Most Played"
+        title="Selected for you"
         subtitle="ExQuizzes"
         description="All time most played quizzes. See what the community is playing and join the fun. Ideal for new players to get started."
         button="Discover"
         direction="sm:order-none"
-        link="/quizzes/most-played"
+        link="/quizzes/recomendations"
         alignDirection={'text-right'}
         image={
           'https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500'

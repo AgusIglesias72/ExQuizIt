@@ -11,7 +11,7 @@ export default function HeroSection() {
           <h1 className="max-w-2xl mb-4 lg:mb-10 text-4xl text-center lg:text-left mx-auto font-extrabold text-gray-900 md:text-5xl ">
             Choose from our{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-800 from-sky-400">
-              +1000 amazing ExQuizIts
+              +150 amazing ExQuizIts
             </span>
           </h1>
           <p className="max-w-2xl mb-6 mx-4 lg:mx-auto font-normal text-gray-500 lg:mb-10 md:text-lg lg:text-xl text-center lg:text-left mx-auto">

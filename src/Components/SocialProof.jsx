@@ -20,7 +20,7 @@ export default function SocialProof() {
               Available to play, and see how you compare to others
             </p>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">+ 1.000</span>
+              <span className="mr-2 text-5xl font-extrabold">+ 150</span>
             </div>
             <Link
               href="/quizzes"
@@ -35,7 +35,7 @@ export default function SocialProof() {
               Such as: Sports, Geography, History, Science, and more.
             </p>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">20</span>
+              <span className="mr-2 text-5xl font-extrabold">+ 10</span>
             </div>
             <Link
               href="/quizzes/categories"
@@ -51,7 +51,7 @@ export default function SocialProof() {
               In the world, challenge them and became one of the best.
             </p>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">+ 250</span>
+              <span className="mr-2 text-5xl font-extrabold">+ 500</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             <Link

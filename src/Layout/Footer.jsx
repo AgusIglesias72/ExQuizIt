@@ -19,94 +19,94 @@ export default function Footer() {
           <div className="flex flex-wrap flex-row justify-around w-full md:w-2/3">
             <div>
               <h2 className="mb-6 text-md font-semibold text-white uppercase">
-                Resources
+                MENU
               </h2>
               <ul className="text-white">
                 <li className="mb-4">
                   <Link
-                    href="https://flowbite.com"
+                    href="/"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
+                    Home
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
+                  <Link
+                    href="/quizzes"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
-                  </a>
+                    Quizzes
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
+                  <Link
+                    href="/quizzes/play"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-md font-semibold text-white uppercase">
-                Resources
-              </h2>
-              <ul className="text-white">
-                <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
-                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
-                  >
-                    Flowbite
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
-                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
-                  >
-                    Flowbite
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
-                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
-                  >
-                    Flowbite
-                  </a>
+                    Play
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
               <h2 className="mb-6 text-md font-semibold text-white uppercase">
-                Resources
+                Quizzes
               </h2>
               <ul className="text-white">
                 <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
+                  <Link
+                    href="/quizzes/popular"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
-                  </a>
+                    Popular
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
+                  <Link
+                    href="/quizzes/recomendations"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
-                  </a>
+                    Recommended
+                  </Link>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href="https://flowbite.com"
+                  <Link
+                    href="/quizzes/categories"
                     className="hover:text-[#1C1C1C] hover:transition-all duration-300"
                   >
-                    Flowbite
-                  </a>
+                    Categories
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="mb-6 text-md font-semibold text-white uppercase">
+                PROFILE
+              </h2>
+              <ul className="text-white">
+                <li className="mb-4">
+                  <Link
+                    href="/profile"
+                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
+                  >
+                    My Profile
+                  </Link>
+                </li>
+                <li className="mb-4">
+                  <Link
+                    href="/profile/quizzes"
+                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
+                  >
+                    My Quizzes
+                  </Link>
+                </li>
+                <li className="mb-4">
+                  <Link
+                    href="/stats"
+                    className="hover:text-[#1C1C1C] hover:transition-all duration-300"
+                  >
+                    Stats
+                  </Link>
                 </li>
               </ul>
             </div>

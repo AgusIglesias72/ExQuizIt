@@ -18,7 +18,23 @@ export default async function handler(req, res) {
   }
 
   if (method === 'POST') {
-    console.log(userData)
+    if (!userData) {
+      return res.status(400).json({
+        message: 'User not found',
+      })
+    }
+    if (!quiz) {
+      return res.status(400).json({
+        message: 'Unable to create quiz',
+      })
+    }
+
+    if (quiz.questions.length < 10) {
+      return res.status(400).json({
+        message: 'Quiz must have at least 10 questions',
+      })
+    }
+
     const quizBody = {
       title: quiz.title,
       description: quiz.description,
@@ -58,8 +74,8 @@ export default async function handler(req, res) {
       })
     })
 
-    return res.status(200).json({
-      message: 'POST request received :)',
+    return res.status(201).json({
+      message: 'Successfully created quiz',
     })
   }
 }

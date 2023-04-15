@@ -1,6 +1,7 @@
 import Card from './SmallComponents/Card'
 import { mockCards, mockCategory } from '../mocks/QuizData'
 import { useEffect, useState } from 'react'
+import NewCard from './SmallComponents/NewCard'
 
 const CategoryFilters = ({ activeCategory, setActiveCategory }) => {
   return (
@@ -116,7 +117,7 @@ export default function CardsContainer({}) {
     setPage(1)
   }, [activeCategory])
 
-  let pagination = [...Array(Math.ceil(filteredQuizzes.length / 6)).keys()]
+  let pagination = [...Array(Math.ceil(filteredQuizzes.length / 8)).keys()]
 
   pagination = pagination.map((name) => name + 1)
 
@@ -141,19 +142,20 @@ export default function CardsContainer({}) {
           />
         </div>
       </div>
-      <div className="flex flex-row flex-wrap gap-x-2 gap-y-4 lg:gap-y-8 justify-evenly items-center">
+      <div className="flex flex-row flex-wrap gap-x-2 gap-y-4 lg:gap-y-8 lg:gap-x-8 justify-evenly items-center">
         {filteredQuizzes
           .slice(
-            (page - 1) * 6,
-            page === pagination.length ? mockCards.length : page * 6
+            (page - 1) * 8,
+            page === pagination.length ? mockCards.length : page * 8
           )
           .map((card, index) => {
             return (
-              <Card
-                key={index}
-                object={card}
-                direction={index % 2 === 0 ? 'order-none' : 'order-first'}
-              />
+              <NewCard key={index} object={card} />
+              // <Card
+              //   key={index}
+              //   object={card}
+              //   direction={index % 2 === 0 ? 'order-none' : 'order-first'}
+              // />
             )
           })}
         <div className="pt-2 mt-2 flex flex-col flex-wrap w-full lg:flex-row justify-center md:justify-around items-center gap-4 gap-x-10 lg:gap-0 mx-auto w-full text-sm font-medium text-center text-gray-500 ">

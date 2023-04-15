@@ -19,6 +19,55 @@ export const mockCards = [
     link: '/quizzes/1',
   },
   {
+    category: 'Music',
+    difficulty: 'Hard',
+    quantity: 10,
+
+    title: 'World War 2',
+    description: 'Historical questions about the World War 2',
+    image: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+    link: '/quizzes/1',
+  },
+  {
+    category: 'Geography',
+    difficulty: 'Hard',
+    quantity: 10,
+
+    title: 'Rivers of the world',
+    description: '¿Can you name the rivers of the world?',
+    image: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+    link: '/quizzes/1',
+  },
+  {
+    category: 'Geography',
+    difficulty: 'Hard',
+    quantity: 10,
+
+    title: 'Rivers of the world',
+    description: '¿Can you name the rivers of the world?',
+    image: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+    link: '/quizzes/1',
+  },
+  {
+    category: 'Sports',
+    difficulty: 'Easy',
+    title: 'World Cup 2022',
+    quantity: 10,
+    description: 'Questions about the World Cup 2022',
+    image: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+    link: '/quizzes/1',
+  },
+  {
+    category: 'History',
+    difficulty: 'Hard',
+    quantity: 10,
+
+    title: 'World War 2',
+    description: 'Historical questions about the World War 2',
+    image: 'https://flowbite.com/docs/images/blog/image-4.jpg',
+    link: '/quizzes/1',
+  },
+  {
     category: 'Geography',
     difficulty: 'Hard',
     quantity: 10,

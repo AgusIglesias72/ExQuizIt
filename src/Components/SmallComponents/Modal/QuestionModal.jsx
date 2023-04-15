@@ -72,7 +72,10 @@ export default function QuestionModal({ closeModal, show, question }) {
       aria-hidden="true"
       className={`overflow-y-auto ${
         show ? '' : 'hidden'
-      } overflow-x-hidden fixed z-20  flex w-full h-full inset-0 top-[5vh] outline-none justify-center items-center`}
+      } overflow-x-hidden fixed z-20  flex w-full h-full inset-0  outline-none justify-center items-center`}
+      style={{
+        backgroundColor: 'rgba(0, 0, 0, 0.6)',
+      }}
     >
       <div className="relative p-4 w-full max-w-2xl h-full ">
         <div
@@ -201,7 +204,7 @@ export default function QuestionModal({ closeModal, show, question }) {
                 type="submit"
                 className="text-white bg-primary-700 hover:bg-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
               >
-                Update product
+                Update Question
               </button>
               <button
                 type="button"
