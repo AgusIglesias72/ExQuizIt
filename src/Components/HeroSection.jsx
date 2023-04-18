@@ -45,9 +45,9 @@ export default function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-2/3 pt-10 lg:w-auto mx-auto lg:mt-0 lg:col-span-5 lg:flex ">
+        <div className="w-2/3 lg:w-4/5 mx-auto lg:col-span-5 lg:flex">
           <img
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png"
+            src="https://media.istockphoto.com/id/1350572665/vector/question-mark-icon-and-lamp-in-color-speech-bubble.jpg?s=612x612&w=0&k=20&c=I3vJt-2ujLSZUsLmJWPnsFMWv2pZlYoIFdK3Xb2aJAk="
             alt="mockup"
           />
         </div>

@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </Link>
           </div>
-          <div className="flex flex-wrap flex-row justify-around w-full md:w-2/3">
+          <div className="flex flex-wrap flex-row justify-around w-full md:w-2/3 lg:w-1/2">
             <div>
               <h2 className="mb-6 text-md font-semibold text-white uppercase">
                 MENU

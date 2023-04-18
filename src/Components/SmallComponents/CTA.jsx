@@ -12,9 +12,9 @@ export default function CTACard({
   link,
 }) {
   return (
-    <div className="bg-white py-2 lg:py-4">
+    <div className="bg-white py-2 lg:py-4 max-w-screen-xl mx-auto">
       <div className="mx-auto w-full px-4 md:px-8">
-        <div className="flex flex-col overflow-hidden rounded-lg bg-blue-800 sm:flex-row md:h-80">
+        <div className="flex flex-col overflow-hidden rounded-lg bg-blue-900 sm:flex-row md:h-80">
           <div
             className={`flex w-full flex-col p-4 sm:w-1/2 sm:p-8 lg:w-2/5 ${alignDirection} `}
           >

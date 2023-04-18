@@ -20,10 +20,6 @@ export const Statistic = ({ ...props }) => {
             <p className="text-lg font-bold">E-Mail</p>
             <p className="text-gray-700">{mail}</p>
           </div>
-          <div>
-            <p className="text-lg font-bold">Nombre</p>
-            <p className="text-gray-700">Agustín Iglesias</p>
-          </div>
         </div>
         <div className="grid border divide-y rounded lg:col-span-3 sm:grid-cols-2 sm:divide-y-0 sm:divide-x">
           <div className="flex flex-col justify-between text-center sm:text-left p-4 sm:p-10">

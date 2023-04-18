@@ -27,7 +27,7 @@ export default function Quizzes() {
         direction="sm:order-first"
         link="/quizzes/popular"
         image={
-          'https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500'
+          'https://media.istockphoto.com/id/1308986719/photo/yellow-question-mark-on-a-background-of-black-signs-faq-concept.jpg?s=612x612&w=0&k=20&c=srBs9yiEVvvzLA_qFi_dIKcLTxbeQAdxRnonnZBppzs='
         }
       />
       <CTACard
@@ -39,7 +39,7 @@ export default function Quizzes() {
         link="/quizzes/recomendations"
         alignDirection={'text-right'}
         image={
-          'https://images.unsplash.com/photo-1505846951821-e25bacf2eccd?auto=format&q=75&fit=crop&crop=top&w=1000&h=500'
+          'https://media.istockphoto.com/id/1357386381/photo/businessman-using-smart-phone-with-business-global-internet-connection-application-technology.jpg?s=612x612&w=0&k=20&c=X123VEfPih5impwkQQ2BTzgNN2lxtgP1Bj0BXuROKco='
         }
       />
       <TitleComponent title="¿Which Quiz will you play today?" subtitle="" />
