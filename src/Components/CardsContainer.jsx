@@ -6,14 +6,15 @@ import NewCard from './SmallComponents/NewCard'
 const CategoryFilters = ({ activeCategory, setActiveCategory }) => {
   return (
     <ul className="flex flex-row flex-wrap justify-center px-5 md:px-0">
-      {mockCategory.map((category) => {
+      {mockCategory.map((category, index) => {
         return (
           <li
+            key={index}
             className="mr-2 "
             onClick={(e) => {
               setActiveCategory(e.target.id)
             }}
-            key={category}
+            
           >
             <div
               id={category}
